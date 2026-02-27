@@ -1,5 +1,5 @@
 package com.narxoz.rpg.adapter;
-
+// Checking if commits work??
 import com.narxoz.rpg.battle.Combatant;
 import com.narxoz.rpg.enemy.Enemy;
 
