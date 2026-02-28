@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== RPG Battle Engine Demo ===\n");
+        System.out.println("RPG Battle Engine Demo\n");
 
         Warrior warrior = new Warrior("Nurdaulet");
         Mage mage = new Mage("Kazybek");
@@ -45,9 +45,9 @@ public class Main {
         for (String line : result.getBattleLog()) {
             System.out.println(line);
         }
-        System.out.println("Winner: " + result.getWinner());
-        System.out.println("Rounds: " + result.getRounds());
+        System.out.println("Winner:" + result.getWinner());
+        System.out.println("Rounds:" + result.getRounds());
 
-        System.out.println("\n=== Demo Complete ===");
+        System.out.println("\nDemo Complete");
     }
 }
