@@ -7,4 +7,5 @@ public interface Enemy {
     boolean isDefeated();
     double checkCriticalChance();
     int getAggroValue();
+    int getHealth();
 }

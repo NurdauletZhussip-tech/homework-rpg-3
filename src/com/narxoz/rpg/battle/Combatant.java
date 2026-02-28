@@ -5,5 +5,7 @@ public interface Combatant {
     int getAttackPower();
     void takeDamage(int amount);
     boolean isAlive();
+    int getHealth();
+    double getCritChance();
     int getAggro();
 }
