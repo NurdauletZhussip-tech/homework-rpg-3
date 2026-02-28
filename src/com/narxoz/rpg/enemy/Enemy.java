@@ -5,4 +5,6 @@ public interface Enemy {
     int getDamage();
     void applyDamage(int amount);
     boolean isDefeated();
+    double checkCriticalChance();
+    int getAggroValue();
 }

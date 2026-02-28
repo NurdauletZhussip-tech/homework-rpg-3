@@ -7,4 +7,5 @@ public interface Hero {
     boolean isAlive();
     int getHealth();
     double getCritRate();
+    int getAggrovateDate();
 }

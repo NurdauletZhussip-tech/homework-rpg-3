@@ -5,12 +5,14 @@ public class Warrior implements Hero {
     private final int power;
     private int health;
     private double critRate;
+    private int aggro;
 
     public Warrior(String name) {
         this.name = name;
         this.power = 40;
         this.health = 120;
         this.critRate = 0.50;
+        this.aggro = 5;
     }
 
     @Override
@@ -44,4 +46,10 @@ public class Warrior implements Hero {
     public double getCritRate() {
         return critRate;
     }
+
+    @Override
+    public int getAggrovateDate() {
+        return aggro;
+    }
 }
+

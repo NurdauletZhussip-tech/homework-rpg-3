@@ -23,7 +23,6 @@ public class BasicEnemy implements Enemy {
 
     @Override
     public void applyDamage(int amount) {
-        // TODO: enforce min 0
         health -= amount;
         if (health < 0) {
             health = 0;
@@ -38,4 +37,14 @@ public class BasicEnemy implements Enemy {
     public int getHealth() {
         return health;
     }
+    @Override
+    public double checkCriticalChance() {
+        return 0;
+    }
+
+    @Override
+    public int getAggroValue() {
+        return 1;
+    }
+
 }

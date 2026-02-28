@@ -30,4 +30,6 @@ public class HeroCombatantAdapter implements Combatant {
     public boolean isAlive() {
         return hero.isAlive();
     }
+
+
 }
